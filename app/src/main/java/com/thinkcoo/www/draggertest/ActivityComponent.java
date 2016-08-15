@@ -10,6 +10,7 @@ public interface ActivityComponent {
 
     //    void inject(MainActivity activity);
     // expose
-    UserModule userModule();
+    User user();
 
+    void inject(MainActivity mainActivity);
 }

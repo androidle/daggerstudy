@@ -10,7 +10,8 @@ import dagger.Provides;
 public class ActivityModule {
 
     @Provides
-    UserModule provideUserModule() {
-        return new UserModule();
+    User provideUserModule() {
+        System.out.println("========provideUserModule========");
+        return new User();
     }
 }
